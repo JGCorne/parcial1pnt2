@@ -23,6 +23,15 @@
       </div>
     </div>
   </div>
+  
+  <div class="respuestas">
+    <h3>Respuestas:</h3>
+    <ul>
+      <li>1 C. Forma abreviada de v-on:click = @click</li>
+      <li>2 C. El modificador trim recorta los espacios en blanco al inicio y al final de la cadena de texto</li>
+      <li>3 A. La propiedad routes en la definición del router de Vue.js tiene como función definir el path y el componente activo para esa ruta</li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -118,5 +127,20 @@ input[type="number"] {
 
 .rojo {
   color: #e53935;
+}
+
+.respuestas {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.respuestas p {
+  margin: 0;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 </style>
